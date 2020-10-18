@@ -8,3 +8,12 @@ end
 
 
 display_board([" "," "," "," "," "," "," "," "," "])
+
+def display_board(rows)
+puts " The #{board[4] = O}"
+end
+
+
+display_board([" "," "," "," ","X"," "," "," "," "])
+
+
