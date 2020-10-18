@@ -21,4 +21,3 @@ it 'prints a board with an X in the center position' do
   expect(rows[4]).to eq("   |   |   ")
 
 end
-
