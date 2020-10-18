@@ -4,6 +4,6 @@ def display_board(rows)
   puts ("   |   |   ")
   puts ("-----------")
   puts ("   |   |   ")
-end 
+end
 
 display_board([" "," "," "," "," "," "," "," "," "])
