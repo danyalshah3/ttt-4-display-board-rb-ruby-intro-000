@@ -21,7 +21,7 @@ end
 display_board([" "," "," "," ","X"," "," "," "," "])
 
 def display_board(rows)
-  puts " X | X | X "
+  puts " O |   |   "
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
@@ -29,18 +29,18 @@ def display_board(rows)
 end
 
 
-display_board(["X","X","X"," "," "," "," "," "," "])
+display_board(["O"," "," "," "," "," "," "," "," "])
 
 
 def display_board(rows)
-  puts " O | X |   "
+  puts " O |   |   "
   puts "-----------"
   puts "   | X |   "
   puts "-----------"
-  puts " X | O |   "
+  puts "   |   |   "
 end
 
-display_board(["O","X"," "," ","X"," ","X","O"," "])
+display_board(["O"," "," "," ","X"," "," "," "," "])
 
 
 def display_board(rows)
@@ -84,3 +84,14 @@ def display_board(rows)
 end
 
 display_board([" "," ","O"," ","O"," ","O"," "," "])
+
+def display_board(rows)
+  puts " X | X | X "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end
+
+display_board(["X","X","X"," "," "," "," "," "," "])
+
