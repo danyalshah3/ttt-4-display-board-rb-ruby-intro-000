@@ -86,11 +86,11 @@ end
 display_board([" "," ","O"," ","O"," ","O"," "," "])
 
 def display_board(rows)
-  puts " X | X | X "
+  puts " X | O | X "
   puts "-----------"
   puts " X | O | O "
   puts "-----------"
   puts " X | O | O "
 end
 
-display_board(["X","X","X","X","O","O","X","O","O"])
+display_board(["X","O","X","X","O","O","X","O","O"])
