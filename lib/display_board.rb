@@ -4,6 +4,9 @@ def display_board(rows)
   puts ("   |   |   ")
   puts ("-----------")
   puts ("   |   |   ")
+end
+
+def display_board(rows)
   puts ("   |   |   ")
   puts ("-----------")
   puts ("   | X |   ")
@@ -12,3 +15,4 @@ def display_board(rows)
 end
 
 display_board([" "," "," "," "," "," "," "," "," "])
+display_board([" "," "," "," ","X"," "," "," "," "])
