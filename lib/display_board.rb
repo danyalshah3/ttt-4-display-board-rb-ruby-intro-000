@@ -94,4 +94,3 @@ def display_board(rows)
 end
 
 display_board(["X","X","X"," "," "," "," "," "," "])
-
