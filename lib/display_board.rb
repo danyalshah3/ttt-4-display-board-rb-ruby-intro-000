@@ -1,3 +1,3 @@
-def display_board
-  puts "A Tic Tac Toe Baord"
-end
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+display_board(board)
