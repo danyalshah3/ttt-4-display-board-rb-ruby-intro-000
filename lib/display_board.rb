@@ -94,3 +94,25 @@ def display_board(rows)
 end
 
 display_board(["O","X"," "," ","X"," ","X","O"," "])
+
+
+def display_board(rows)
+  puts " X | X | X "
+  puts "-----------"
+  puts " X | X | X "
+  puts "-----------"
+  puts " X | X | X "
+end
+
+display_board(["X","X","X","X","X","X","X","X","X"])
+
+
+f display_board(rows)
+  puts "O  | O | O "
+  puts "-----------"
+  puts " O | O | O "
+  puts "-----------"
+  puts " O | O | O "
+end
+
+display_board(["O","O","O","O","O","O","O","O","O"])
