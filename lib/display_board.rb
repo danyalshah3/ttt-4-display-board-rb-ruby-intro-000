@@ -1,5 +1,9 @@
 def display_board(rows)
-puts "#{board[4] = "X"}"
+  puts ("   |   |   ")
+  puts ("-----------")
+  puts ("   |   |   ")
+  puts ("-----------")
+  puts ("   |   |   ")
 end
 
 
