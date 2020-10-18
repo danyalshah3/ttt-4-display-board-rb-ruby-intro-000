@@ -11,4 +11,4 @@ display_board(board)
 
 
 board = [" "," "," "," ","X"," "," "," "," "]
-board[4] = "X"
+display_board(board[4] = X)
