@@ -1,5 +1,3 @@
-def display_board
-  puts board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-end
+board = [" ", " ", " ", " ", " ", " ", " ", " ", "]
 
 display_board(board)
