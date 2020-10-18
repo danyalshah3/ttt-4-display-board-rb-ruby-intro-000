@@ -10,13 +10,5 @@ board = [" "," "," "," "," "," "," "," "," "]
 display_board(board)
 
 
-def display_board(rows)
-  puts ("   |   |   ")
-  puts ("-----------")
-  puts ("   | X |   ")
-  puts ("-----------")
-  puts ("   |   |   ")
-end
-
 board = [" "," "," "," ","X"," "," "," "," "]
-display_board(board)
+board[4] = X
