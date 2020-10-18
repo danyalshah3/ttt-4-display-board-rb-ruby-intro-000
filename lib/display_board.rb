@@ -88,7 +88,7 @@ display_board([" "," ","O"," ","O"," ","O"," "," "])
 def display_board(rows)
   puts " X | O | X "
   puts "-----------"
-  puts " X | O | O "
+  puts "   |   |   "
   puts "-----------"
   puts " X | O | O "
 end
