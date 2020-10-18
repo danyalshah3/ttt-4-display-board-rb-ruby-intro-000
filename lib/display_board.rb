@@ -15,4 +15,3 @@ def display_board(rows[4] = X)
 end
 
 display_board([" "," "," "," "," "," "," "," "," "])
-
