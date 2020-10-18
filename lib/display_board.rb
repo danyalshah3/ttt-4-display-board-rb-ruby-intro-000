@@ -6,4 +6,4 @@ def display_board(rows)
   puts "   |   |   "
 end
 
-display_board([" "," "," "," "," "," "," "," "," "])
+display_board([" "," "," "," ","X"," "," "," "," "])
