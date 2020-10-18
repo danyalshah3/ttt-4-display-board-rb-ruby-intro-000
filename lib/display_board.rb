@@ -7,4 +7,3 @@ def display_board(rows)
 end
 
 display_board([" "," "," "," "," "," "," "," "," "])
-
