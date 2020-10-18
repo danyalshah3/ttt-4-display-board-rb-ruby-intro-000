@@ -9,7 +9,7 @@ end
 
 display_board = [" "," "," "," "," "," "," "," "," "]
 
-def display_board(rows[2])
+def display_board(rows)
 puts ("   |   |   ")
 puts ("-----------")
 puts ("   | X |   ")
