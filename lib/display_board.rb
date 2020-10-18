@@ -6,10 +6,10 @@ def display_board(rows)
   puts ("   |   |   ")
 end
 
-def display_board(rows[4] = X)
-  puts ("   |   |   ")
-  puts ("-----------")
+def display_board(rows)
   puts ("   | X |   ")
+  puts ("-----------")
+  puts ("   |   |   ")
   puts ("-----------")
   puts ("   |   |   ")
 end
